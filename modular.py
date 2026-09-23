@@ -27,7 +27,6 @@ def modular_multiplication(a, b, m):
 
 def modular_inverse(a, m):
     
-    #Calculate the modular inverse of a modulo m.
     #a^(-1) mod m exists only when gcd(a, m) = 1.
 
     if m == "0":
