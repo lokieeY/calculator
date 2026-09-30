@@ -33,7 +33,7 @@ def run_benchmark():
     ]
 
     print()
-    print("Modular Exponentiation Benchmark")
+    print("Modular Exponentiation")
     print("=" * 75)
     print(
         f"{'Exponent':<15}"

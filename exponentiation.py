@@ -56,10 +56,17 @@ def square_and_multiply(base, exponent, modulus):
 
 if __name__ == "__main__":
     
-    result = naive_modular_exponentiation(
-        "2",
-        "10",
-        "1000"
+    result1 = naive_modular_exponentiation(
+        "12322",
+        "1044",
+        "1246576"
     )
 
-    print("Result:", result)
+    result2 = square_and_multiply(
+            "256456",
+            "589",
+            "567879"
+        )
+
+    print("Result using naive base :", result1)
+    print("Result using square and multiply : ", result2)
