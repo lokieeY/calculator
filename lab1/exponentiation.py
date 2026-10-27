@@ -1,5 +1,5 @@
-from operations import *
-from gcd import mod
+from lab1.operations import *
+from lab1.gcd import mod
 
 
 def naive_modular_exponentiation(base, exponent, modulus):

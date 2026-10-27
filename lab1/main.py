@@ -1,7 +1,7 @@
 import customtkinter as ctk
 
-from gcd import gcd
-from extended_gcd import extended_gcd, signed_to_string
+from lab1.gcd import gcd
+from lab1.extended_gcd import extended_gcd, signed_to_string
 
 
 app = ctk.CTk()

@@ -1,6 +1,6 @@
 import time
 
-from exponentiation import (
+from lab1.exponentiation import (
     naive_modular_exponentiation,
     square_and_multiply
 )
