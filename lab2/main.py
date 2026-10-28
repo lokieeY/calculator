@@ -4,7 +4,7 @@ from rsa import run_rsa, run_comparison
 
 def main():
     while True:
-        print("\n===== NUMBER THEORY ASSIGNMENT =====")
+        print("\n===== NUMBER THEORY =====")
         print("1. Solve CRT")
         print("2. RSA: key generation, encryption and decryption")
         print("3. Compare normal RSA and CRT-based RSA speed")
