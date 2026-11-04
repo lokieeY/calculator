@@ -161,4 +161,4 @@ def run_comparison():
     print("Results match:", normal == crt_result)
     print("Average normal decryption time:", normal_time, "seconds")
     print("Average CRT decryption time:", crt_time, "seconds")
-    print("Note: small examples and custom string arithmetic can make timing noisy.")
+    #print("Note: small examples and custom string arithmetic can make timing noisy.")
